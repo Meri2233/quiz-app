@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: midnightblue;
+    color:white;
+    margin:150px;
+}
+.curquestion,.score{
+    margin:20px;
+}
+.option{
+    margin:20px;
+    padding:5px 30px;
+    background-color: midnightblue;
+    border: 2px solid white;
+    cursor: pointer;
+    color:white;
+}
+.option:hover{
+    background-color: gainsboro;
+}
+.timebar{
+    height:10px;
+    background-color: green;
+    position:fixed;
+    bottom: 0;
+    left:0;
+}
