@@ -1,4 +1,3 @@
-import Options from "./Answers"
 
 function Questions(props){
     return(
