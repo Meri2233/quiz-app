@@ -5,6 +5,8 @@
     font-size: 40px;
 }
 body{
+    width:100vw;
+    height:100vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +14,6 @@ body{
     text-align: center;
     background-color: midnightblue;
     color:white;
-    margin:150px;
 }
 .curquestion,.score{
     margin:20px;
@@ -34,4 +35,31 @@ body{
     position:fixed;
     bottom: 0;
     left:0;
+}
+
+.start{
+    padding:10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: gainsboro;
+}
+
+.title{
+    display:flex;
+}
+.box{
+    width:300px;
+    border: 2px solid black;
+    padding:10px;
+}
+.total{
+    border:2px solid black;
+    display:flex;
+    justify-content: flex-end;
+}
+p{
+    border-left: 2px solid black;
+    width:300px;
 }
