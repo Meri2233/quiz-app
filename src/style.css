@@ -15,7 +15,7 @@ body{
     background-color: midnightblue;
     color:white;
 }
-.curquestion,.score{
+.curquestion{
     margin:20px;
 }
 .option{
@@ -59,7 +59,7 @@ body{
     display:flex;
     justify-content: flex-end;
 }
-p{
+.score{
     border-left: 2px solid black;
     width:300px;
 }

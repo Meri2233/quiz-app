@@ -18,7 +18,7 @@ function Result({ result, total }) {
                 </div>)}
             </div>
             <div className="total">
-                <p>Total:{total}</p>
+                <p className="score">Total:{total}</p>
             </div>
         </div>
     )

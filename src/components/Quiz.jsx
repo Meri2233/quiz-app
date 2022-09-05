@@ -12,7 +12,7 @@ export default function Quiz({questionsObj,total,currQuestion,selectedOption,wid
 
     return (
         <div className="gamearea">
-            <p className="score">Score: {total}</p>
+            <p className="scorebar">Score: {total}</p>
             <Questions text={questionsObj[currQuestion].question} />
             <div className="options-container">
                 <Options option={questionsObj[currQuestion].options[0].op} changeColor={updateColor} idx={0} color={selectedOption === 0 ? (questionsObj[currQuestion].options[0].isCorrect ? "green" : "red") : null} />
